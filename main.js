@@ -1,4 +1,4 @@
-var a = require('./hello.js');
+var a = require('./build/hello.min.js');
 var b = new a();
 console.log(b.getName());
 b.setName('aaa');
